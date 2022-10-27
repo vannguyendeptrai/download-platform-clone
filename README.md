@@ -32,3 +32,22 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+## Requirement to run
+Create .env file
+Define value of
+```bash
+DATABASE_URL=""
+EMAIL_SERVER= ""
+EMAIL_FROM= ""
+NEXTAUTH_URL= http://localhost:3000
+SECRET= "" # get from Vercel secrete generator app
+# AWS S3 bucket
+AWS_S3_ACCESS_KEY_ID= "" 
+AWS_S3_SECRET_ACCESS_KEY= ""
+AWS_S3_BUCKET_NAME= "" 
+# Stripe
+STRIPE_PUBLIC_KEY= ""
+STRIPE_SECRET_KEY= ""
+BASE_URL=http://localhost:3000
+```
